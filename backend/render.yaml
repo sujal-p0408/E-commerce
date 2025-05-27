@@ -2,9 +2,9 @@ services:
   - type: web
     name: mern-ecommerce-backend
     runtime: node
-    rootDir: .
+    rootDir: backend
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node index.js
     envVars:
       - key: PORT
         value: 5000
