@@ -11,4 +11,4 @@ services:
       - key: MONGO_URI
         value: mongodb+srv://sujalporte68:CiljLxHoThzZ2vF8@cluster0.15h9xv1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       - key: JWT_SECRET
-        sync: false 
+        value: d88c43e235d308c0826e4818b5d91f67 
